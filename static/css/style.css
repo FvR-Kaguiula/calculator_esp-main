@@ -171,3 +171,16 @@ label {
     font: inherit;
     color: #fff;
 }
+
+.form_result_body {
+    font-family: 'Georgia', sans-serif;
+    background-color: #f8f5ee;
+    color: #000000;
+    margin: 1;
+    padding: 15px;
+}
+
+.form_result_h1 {
+    font-family: 'Lobster', sans-serif;
+    color: #465183;
+}

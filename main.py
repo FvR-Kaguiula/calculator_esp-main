@@ -6,9 +6,9 @@ app = Flask(__name__)
 
 def result_calculate(size, lights, device):
     # Variables que permiten calcular el consumo energético de los aparatos
-    home_coef = 100
-    light_coef = 0.04
-    devices_coef = 5   
+    home_coef = 50
+    light_coef = 0.02
+    devices_coef = 2.5   
     return size * home_coef + lights * light_coef + device * devices_coef 
 
 # La primera página
